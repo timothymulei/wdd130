@@ -1,0 +1,59 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* Root CSS Variables */
+:root {
+  --primary-color: #396e94;
+  --secondary-color: #e7c24f;
+  --accent-color: #a43312;
+  --additional-accent-color: #381d2a;
+  --heading-font: 'Montserrat', sans-serif;
+  --paragraph-font: 'Roboto', sans-serif;
+  --navigation-bg-color: var(--primary-color);
+  --navigation-link-color: white;
+  --navigation-hover-link-color: #ffd700;
+  --navigation-hover-bg-color: var(--secondary-color);
+}
+
+/* Body */
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+}
+
+/* Header */
+header {
+  padding: 20px;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Paragraphs */
+p {
+  padding: 10px 0;
+}
+
+/* Navigation */
+nav {
+  background-color: var(--navigation-bg-color);
+  padding: 10px;
+}
+
+nav a {
+  color: var(--navigation-link-color);
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  color: var(--navigation-hover-link-color);
+  background-color: var(--navigation-hover-bg-color);
+}
