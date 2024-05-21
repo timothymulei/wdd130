@@ -24,6 +24,7 @@ main img{
   width: 150px;
   height: auto;
   float: right;
+  margin: 0 0 1rem 1rem;
 }
 .box {
   margin: 1rem;
